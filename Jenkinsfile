@@ -7,7 +7,7 @@ pipeline {
         IMAGE_TAG = "latest"
         AWS_ACCOUNT_ID = '439110395780'
         IMAGE_NAME = 'avikbhattacharya056/my-second-image'
-        DOCKER_HUB_REPOSITORY = 'https://hub.docker.com/repositories/avikbhattacharya056' // Replace with your actual repo name
+        DOCKER_HUB_REPOSITORY = 'avikbhattacharya056/my-second-image' // Replace with your actual repo name
     }
 
     stages {
